@@ -8,6 +8,7 @@ OpenCore for CUBE Thinker/i35
 ## Working
 * WIFI (*Modify `EFI/OC/Kexts/itlwm.kext/Contents/Info.plist` to set your WiFi SSID and password.*)
 * Bluetooth
+* Sidecar
 * Touch Screen
 * Trim
 
