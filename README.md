@@ -14,6 +14,7 @@ OpenCore for CUBE Thinker/i35
 
 ## Not working
 * Trackpad
+* Sleep
 
 ## Before installation
 ### Edit config.plist
