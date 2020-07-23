@@ -3,7 +3,7 @@ OpenCore for CUBE Thinker/i35
 
 ## OC information
 * OC Version: 0.5.9
-* Tested OS Version: 10.15.5
+* Tested OS Version: 10.15.6
 
 ## Working
 * WIFI (*Modify `EFI/OC/Kexts/itlwm.kext/Contents/Info.plist` to set your WiFi SSID and password.*)
@@ -18,7 +18,15 @@ OpenCore for CUBE Thinker/i35
 
 ## Before installation
 ### Edit config.plist
-Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information and write config.plist
+Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information(chose the MacBookPro14,3 SMBIOS) and write config.plist
+
+* The Type part gets copied to Generic -> SystemProductName.
+
+* The Serial part gets copied to Generic -> SystemSerialNumber.
+
+* The Board Serial part gets copied to Generic -> MLB.
+
+* The SmUUID part gets copied to Generic -> SystemUUID.
 
 ### BIOS Settings
 #### Disable
