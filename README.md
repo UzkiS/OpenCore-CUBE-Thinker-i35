@@ -31,16 +31,16 @@ Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS info
 ### BIOS Settings
 #### Disable
 
-* Fast Boot
-* Secure Boot
-* Compatibility Support Module (CSM)
+* Boot -> Fast Boot
+* Security -> Secure Boot -> Attempt Secure Boot
+* Advanced -> CSM Configuration -> CSM Support
 * Intel Platform Trust
 
 #### Enable
-* Above 4G decoding
+* Advanced ->  PCI Subsystem Settings -> Above 4G decoding
 
 #### Set
-##### Chipset -> Graphics Configuration
+##### Chipset -> System Agent (SA) Configuration -> Graphics Configuration
 * Aperture Size 512M
 * DVMT Pre-Allocated 64M
 * DVMT Total Gfx Mem MAX
