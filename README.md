@@ -2,11 +2,11 @@
 OpenCore for CUBE Thinker/i35
 
 ## OC information
-* OC Version: 0.5.9
+* OC Version: 0.6.7
 * Tested OS Version: 10.15.6
 
 ## Working
-* WIFI (*Modify `EFI/OC/Kexts/itlwm.kext/Contents/Info.plist` to set your WiFi SSID and password.*)
+* WIFI
 * Bluetooth
 * Sidecar
 * Touch Screen
@@ -18,7 +18,7 @@ OpenCore for CUBE Thinker/i35
 
 ## Before installation
 ### Edit config.plist
-Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information(chose the MacBookPro14,3 SMBIOS) and write config.plist
+Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS information(chose the MacBookPro14,1 SMBIOS) and write config.plist
 
 * The Type part gets copied to Generic -> SystemProductName.
 
@@ -47,9 +47,13 @@ Using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate SMBIOS info
 
 ## After installation
 ### Fixing iMessage and other services with OpenCore
-[https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html)
+[https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)
 
-## Credits
-[zxystd/itlwm](https://github.com/zxystd/itlwm)
-
-[zxystd/IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware)
+## Kext information
+| Name                             | Version |
+| -------------------------------- | ------- |
+| Lilu                             | 1.5.1   |
+| VirtualSMC                       | 1.2.1   |
+| WhateverGreen                    | 1.4.8   |
+| AppleALC                         | 1.5.8   |
+| AirportItlwm                     | 1.3.0   |
