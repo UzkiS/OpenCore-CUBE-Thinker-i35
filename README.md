@@ -3,7 +3,7 @@ OpenCore for CUBE Thinker/i35
 
 ## OC information
 * OC Version: 0.6.7
-* Tested OS Version: 10.15.6
+* Tested OS Version: 11.2.3
 
 ## Working
 * WIFI
